@@ -11,8 +11,8 @@ const NavProvider = ({ children }) => {
   const location = useLocation()
 
   useEffect(() => {
-    if(location.pathname == '/projects') setNavColor('black')
-    // if(location.pathname == '/projects' || location.pathname ==  "/agence") setNavColor('black')
+    // if(location.pathname == '/projects') setNavColor('black')
+    if(location.pathname == '/projects' || location.pathname ==  "/agence") setNavColor('black')
       else setNavColor('white')
   }, [location.pathname])
   return (
