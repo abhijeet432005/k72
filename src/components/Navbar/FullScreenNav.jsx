@@ -133,7 +133,7 @@ const FullScreenNav = () => {
             setTimeout(() => {
               navigate('/projects')
             }, 1000); setnavOpen(false)
-          }} className="link origin-top border-t relative">
+          }} className="link origin-top border-t relative overflow-hidden">
             <h1 className="font-[font-2] text-[5.8vh] lg:text-[7vw] text-center leading-[0.9] lg:pt-6 pt-2 uppercase">
               Projects
             </h1>
@@ -145,7 +145,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className='whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase'>
@@ -153,7 +153,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>
@@ -163,7 +163,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className='whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase'>
@@ -171,7 +171,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>
@@ -187,7 +187,7 @@ const FullScreenNav = () => {
             setTimeout(() => {
               navigate('/agence')
             }, 1000); setnavOpen(false)
-          }} className="link origin-top border-t relative">
+          }} className="link origin-top border-t relative overflow-hidden">
             <h1 className="font-[font-2] text-[5.8vh] lg:text-[7vw] text-center leading-[0.9] lg:pt-6 pt-2 uppercase">
               agence
             </h1>
@@ -200,7 +200,7 @@ const FullScreenNav = () => {
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
                   style={{ objectPosition: "center 10%" }}
-                  src="src/assets/agence/SophieA_480x640.jpg"
+                  src="assets/agence/SophieA_480x640.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -208,7 +208,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/blank_copie_2.jpg"
+                  src="assets/agence/blank_copie_2.jpg"
                   alt=""
                 />
               </div>
@@ -219,7 +219,7 @@ const FullScreenNav = () => {
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
                   style={{ objectPosition: "center 10%" }}
-                  src="src/assets/agence/SophieA_480x640.jpg"
+                  src="assets/agence/SophieA_480x640.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -227,7 +227,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/blank_copie_2.jpg"
+                  src="assets/agence/blank_copie_2.jpg"
                   alt=""
                 />
               </div>
@@ -236,7 +236,7 @@ const FullScreenNav = () => {
 
           {/* 3 */}
 
-          <div className="link origin-top border-t relative">
+          <div className="link origin-top border-t relative overflow-hidden">
             <h1 className="font-[font-2] text-[5.8vh] lg:text-[7vw] text-center leading-[0.9] lg:pt-6 pt-2 uppercase">
               contact
             </h1>
@@ -248,7 +248,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -256,7 +256,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>
@@ -266,7 +266,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -274,7 +274,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>
@@ -282,7 +282,7 @@ const FullScreenNav = () => {
           </div>
 
           {/* 4 */}
-          <div className="link origin-top border-y relative">
+          <div className="link origin-top border-y relative overflow-hidden">
             <h1 className="font-[font-2] text-[5.8vh] lg:text-[7vw] text-center leading-[0.9] lg:pt-6 pt-2 uppercase">
               blogue
             </h1>
@@ -294,7 +294,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -302,7 +302,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>
@@ -312,7 +312,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
+                  src="assets/agence/PJC_SiteK72_Thumbnail_640x290.jpg"
                   alt=""
                 />
                 <h2 className="whitespace-nowrap font-[font-2] text-[5.8vh] lg:text-[7vw]  text-center leading-[1] lg:pt-6 pt-2 uppercase">
@@ -320,7 +320,7 @@ const FullScreenNav = () => {
                 </h2>
                 <img
                   className="lg:w-60 shrink-0 object-cover rounded-full h-10 w-30 lg:h-20"
-                  src="src/assets/agence/WS---K72.ca---MenuThumbnail.jpg"
+                  src="assets/agence/WS---K72.ca---MenuThumbnail.jpg"
                   alt=""
                 />
               </div>

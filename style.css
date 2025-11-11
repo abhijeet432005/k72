@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: font-1;
-    src: url(./src/assets/Lausanne-300.woff2);
+    src: url(assets/Lausanne-300.woff2);
 }
 @font-face {
     font-family: font-2;
-    src: url(./src/assets/Lausanne-500.woff2);
+    src: url(assets/Lausanne-500.woff2);
 }
 
 body{

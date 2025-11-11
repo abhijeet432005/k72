@@ -51,106 +51,106 @@ const Agence = () => {
     {
       name: "Conseillère",
       work: "Sophie Auger",
-      img: "src/assets/agence/SophieA_480x640.jpg",
+      img: "assets/agence/SophieA_480x640.jpg",
     },
     {
       name: "Conceptrice-rédactrice",
       work: "Camille Brière",
-      img: "src/assets/agence/CAMILLE_480X640_2.jpg",
+      img: "assets/agence/CAMILLE_480X640_2.jpg",
     },
     {
       name: "Conseillère principale",
       work: "Stéphanie Brunelle",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "VPP et directeur général",
       work: "Pierre-Luc Paiement",
-      img: "src/assets/agence/PLP2_640x960.jpg",
+      img: "assets/agence/PLP2_640x960.jpg",
     },
     {
       name: "Directrice artistique",
       work: "Mélanie Laviolette",
-      img: "src/assets/agence/MEL_480X640.jpg",
+      img: "assets/agence/MEL_480X640.jpg",
     },
     {
       name: "Directrice de la stratégie",
       work: "Michèle Riendeau",
-      img: "src/assets/agence/Michele_480X640.jpg",
+      img: "assets/agence/Michele_480X640.jpg",
     },
     {
       name: "Directrice conseil",
       work: "Meggie Lavoie",
-      img: "src/assets/agence/MEGGIE_640X980_2.jpg",
+      img: "assets/agence/MEGGIE_640X980_2.jpg",
     },
     {
       name: "Directeur artistique",
       work: "Alex Sauvageau",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "Stratège",
       work: "Béatrice Roussin",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "Conseillère",
       work: "Lou Gravel-Jean",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "Planificateur stratégique principal",
       work: "Olivier Roeyaerts",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "Conseillère",
       work: "Hélène Conti",
-      img: "src/assets/agence/blank.jpg",
+      img: "assets/agence/blank.jpg",
     },
     {
       name: "Coordonatrice",
       work: "Lawrence Meunier",
-      img: "src/assets/agence/Lawrence_480x640.jpg",
+      img: "assets/agence/Lawrence_480x640.jpg",
     },
     {
       name: "Directrice principale",
       work: "Isabelle Beauchemin",
-      img: "src/assets/agence/Isa_640X960.jpg",
+      img: "assets/agence/Isa_640X960.jpg",
     },
     {
       name: "Designer graphique",
       work: "Olivier Duclos",
-      img: "src/assets/agence/Olivier_480x640.jpg",
+      img: "assets/agence/Olivier_480x640.jpg",
     },
     {
       name: "Directeur de création adjoint",
       work: "Joël Letarte",
-      img: "src/assets/agence/joel_480X640_3.jpg",
+      img: "assets/agence/joel_480X640_3.jpg",
     },
     {
       name: "Directrice de création",
       work: "Chantal Gobeil",
-      img: "src/assets/agence/ChantalG_480x640.jpg",
+      img: "assets/agence/ChantalG_480x640.jpg",
     },
     {
       name: "Directeur de création adjoint",
       work: "Sébastien Roy",
-      img: "src/assets/agence/SebR_640X960.jpg",
+      img: "assets/agence/SebR_640X960.jpg",
     },
   ];
 
   const imageArray = [
-    "src/assets/agence/Carl_480x640.jpg",
-    "src/assets/agence/HugoJoseph_480x640.jpg",
-    "src/assets/agence/joel_480X640_3.jpg",
-    "src/assets/agence/Lawrence_480x640.jpg",
-    "src/assets/agence/MEGGIE_480X640_2.jpg",
-    "src/assets/agence/MEL_480X640.jpg",
-    "src/assets/agence/Michele_480X640.jpg",
-    "src/assets/agence/Olivier_480x640.jpg",
-    "src/assets/agence/CAMILLE_480X640_2.jpg",
-    "src/assets/agence/ChantalG_480x640.jpg",
+    "assets/agence/Carl_480x640.jpg",
+    "assets/agence/HugoJoseph_480x640.jpg",
+    "assets/agence/joel_480X640_3.jpg",
+    "assets/agence/Lawrence_480x640.jpg",
+    "assets/agence/MEGGIE_480X640_2.jpg",
+    "assets/agence/MEL_480X640.jpg",
+    "assets/agence/Michele_480X640.jpg",
+    "assets/agence/Olivier_480x640.jpg",
+    "assets/agence/CAMILLE_480X640_2.jpg",
+    "assets/agence/ChantalG_480x640.jpg",
   ];
 
   useGSAP(function () {
@@ -239,7 +239,7 @@ const Agence = () => {
           <img
             ref={imageRef}
             className="w-full h-full object-cover rounded-3xl"
-            src="src/assets/agence/Carl_480x640.jpg"
+            src="assets/agence/Carl_480x640.jpg"
           />
         </div>
 
@@ -304,7 +304,7 @@ const Agence = () => {
           <div className="relative">
             <div className="flex justify-center z-10">
               <img
-                src="src/assets/agence/MEL_480X640.jpg "
+                src="assets/agence/MEL_480X640.jpg "
                 className="rounded-2xl z-[10] lg:w-[35vw] w-[40vh]"
               />
             </div>
@@ -345,7 +345,7 @@ const Agence = () => {
           <div className="relative lg:mt-[10vw] mt-30">
             <div className="flex justify-center z-10">
               <img
-                src="src/assets/agence/Olivier_480x640.jpg"
+                src="assets/agence/Olivier_480x640.jpg"
                 className="rounded-2xl z-[10] lg:w-[35vw] w-[40vh]"
               />
             </div>
@@ -443,7 +443,7 @@ const Agence = () => {
                   <p className="text-[2vw]">Opto-Réseau</p>
                   <h1 className="text-[5vw]">On vous voit comme personne</h1>
                 </div>
-                <img src="src/assets/project image/thumbnailimage_opto.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
+                <img src="assets/project image/thumbnailimage_opto.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
               </div>
             </div>
             <div id="card-2" className="card">
@@ -452,7 +452,7 @@ const Agence = () => {
                   <p className="text-[2vw]">Lamajeure</p>
                   <h1 className="text-[5vw]">Lamajeure</h1>
                 </div>
-                <img src="src/assets/project image/chalaxeur-thumbnail_img.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
+                <img src="assets/project image/chalaxeur-thumbnail_img.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
               </div>
             </div>
             <div id="card-3" className="card">
@@ -461,7 +461,7 @@ const Agence = () => {
                   <p className="text-[2vw]">Lamajeure</p>
                   <h1 className="text-[5vw]">Lamajeure</h1>
                 </div>
-                <img src="src/assets/project image/Fruite_thumbnail_bbq.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
+                <img src="assets/project image/Fruite_thumbnail_bbq.jpg" className="w-full h-full object-cover hover:scale-105 transition-all duration-150" alt="" />
               </div>
             </div>
 

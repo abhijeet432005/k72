@@ -32,10 +32,10 @@ const Homebottom = () => {
         </div>
       </div>
 
-      <NavLink to={'/projects'} className="uppercase text-[3vh] lg:text-[5.5vw] leading-[6vw] pt-1 lg:pt-3 px-1.5 ;g:px-5 -ml-3 border-2 rounded-full hover:text-[#f2ff87]">
+      <NavLink to={'/projects'} className="uppercase text-[3vh] lg:text-[5.5vw] leading-[6vw] pt-1 lg:pt-3 px-1.5 lg:px-5 -ml-3 border-2 rounded-full hover:text-[#f2ff87]">
         Projects
       </NavLink>
-      <NavLink to={'/agence'} className="uppercase text-[3vh] lg:text-[5.5vw] leading-[6vw] pt-1 lg:pt-3 px-1.5 ;g:px-5  border-2 rounded-full hover:text-[#f2ff87]">
+      <NavLink to={'/agence'} className="uppercase text-[3vh] lg:text-[5.5vw] leading-[6vw] pt-1 lg:pt-3 px-1.5 lg:px-5  border-2 rounded-full hover:text-[#f2ff87]">
         agences
       </NavLink>
 

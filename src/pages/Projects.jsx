@@ -9,28 +9,28 @@ const Projects = () => {
   
   const imageArray = [
     {
-      img1: "src/assets/project image/K72_article_ChatGPT_blogue.jpg",
-      img2: "src/assets/project image/100temps_Thumbnail.jpg",
+      img1: "assets/project image/K72_article_ChatGPT_blogue.jpg",
+      img2: "assets/project image/100temps_Thumbnail.jpg",
     },
     {
-      img1: "src/assets/project image/BEST_site_menu_Thumbnail.jpg",
-      img2: "src/assets/project image/CF_thumbnail.jpg",
+      img1: "assets/project image/BEST_site_menu_Thumbnail.jpg",
+      img2: "assets/project image/CF_thumbnail.jpg",
     },
     {
-      img1: "src/assets/project image/chalaxeur-thumbnail_img.jpg",
-      img2: "src/assets/project image/crisis24_behance_1920X1200_cartes.jpg",
+      img1: "assets/project image/chalaxeur-thumbnail_img.jpg",
+      img2: "assets/project image/crisis24_behance_1920X1200_cartes.jpg",
     },
     {
-      img1: "src/assets/project image/Fruite_thumbnail_bbq.jpg",
-      img2: "src/assets/project image/OKA_thumbnail.jpg",
+      img1: "assets/project image/Fruite_thumbnail_bbq.jpg",
+      img2: "assets/project image/OKA_thumbnail.jpg",
     },
     {
-      img1: "src/assets/project image/opto_thumbnail2.jpg",
-      img2: "src/assets/project image/PJC_SiteK72_Thumbnail_640x290.jpg",
+      img1: "assets/project image/opto_thumbnail2.jpg",
+      img2: "assets/project image/PJC_SiteK72_Thumbnail_640x290.jpg",
     },
     {
-      img1: "src/assets/project image/PME-MTL_Thumbnail.jpg",
-      img2: "src/assets/project image/thumbnail_OSM_1280.jpg",
+      img1: "assets/project image/PME-MTL_Thumbnail.jpg",
+      img2: "assets/project image/thumbnail_OSM_1280.jpg",
     },
     // {
     //   img1: "src/assets/project image/thumbnailimage_atable2.jpg",

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import MainRoutes from "./router/MainRoutes";
 import Navbar from "./components/Navbar/Navbar";
 import FullScreenNav from "./components/Navbar/FullScreenNav";
