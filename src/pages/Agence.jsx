@@ -300,7 +300,7 @@ const Agence = () => {
 
         {/* section - 2 */}
 
-        <div className="w-full mt-[25vw]">
+        <div className="w-full mt-[25vw] overflow-hidden">
           <div className="relative">
             <div className="flex justify-center z-10">
               <img
@@ -397,10 +397,10 @@ const Agence = () => {
                       ref={(el) => (colorRefs.current[idx] = el)}
                       className="flex justify-between items-start font-[font-2] uppercase relative z-10 transition-all duration-300"
                     >
-                      <h1 className="p-3 text-sm sm:text-base md:text-[1vw]">
+                      <h1 className="p-3 text-sm sm:text-base md:text-[1vw] text-[#D2FD50] lg:text-white">
                         {elem.name}
                       </h1>
-                      <h1 className="p-3 text-xl sm:text-2xl md:text-[2vw]">
+                      <h1 className="p-3 text-xl sm:text-2xl md:text-[2vw] whitespace-nowrap">
                         {elem.work}
                       </h1>
                     </div>
