@@ -33,7 +33,7 @@ const HomeTop = () => {
       });
   });
   return (
-    <div className="font-[font-1] lg:pt-5 mt-[40vh] lg:mt-0 text-center text-white ">
+    <div className="font-[font-1] lg:pt-5 mt-[35vh] lg:mt-0 text-center text-white ">
       <div className="first text-[5vh] lg:text-[9.5vw] leading-[6vh] lg:leading-[8vw] uppercase flex items-center justify-center">
         L'étincelle
       </div>
