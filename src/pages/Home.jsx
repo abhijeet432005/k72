@@ -6,7 +6,7 @@ import Homebottom from "../components/Home/Homebottom";
 
 const Home = () => {
   return (
-    <>
+    <div className="overflow-y-hidden">
       <div className="w-screen h-screen fixed">
         <Video />
       </div>
@@ -15,7 +15,7 @@ const Home = () => {
         <HomeTop />
         <Homebottom />
       </div>
-    </>
+    </div>
   );
 };
 
