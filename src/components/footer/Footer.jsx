@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between p-3 w-full overflow-hidden">
 
             <div className="w-full flex flex-col lg:flex-row justify-between">
-                <div className="flex gap-4 uppercase font-[font-2] text-5xl lg:text-[3.5vw] leading-[3vw]">
+                <div className="flex gap-2 lg:gap-4 uppercase font-[font-2] text-5xl lg:text-[3.5vw] leading-[3vw]">
                     <h1 className="border  px-4 lg:px-10 pt-8 pb-5 lg:pt-4 lg:pb-2 rounded-full ">fb</h1>
                     <h1 className="border px-4 lg:px-10 pt-8 pb-5 lg:pt-4 lg:pb-2 rounded-full">ig</h1>
                     <h1 className="border px-4 lg:px-10 pt-8 pb-5 lg:pt-4 lg:pb-2 rounded-full">in</h1>
