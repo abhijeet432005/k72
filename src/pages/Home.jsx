@@ -1,0 +1,22 @@
+import React from "react";
+import Video from "../components/Home/Video";
+import HomeTop from "../components/Home/HomeTop";
+import Homebottom from "../components/Home/Homebottom";
+
+
+const Home = () => {
+  return (
+    <>
+      <div className="w-screen h-screen fixed">
+        <Video />
+      </div>
+
+      <div className="h-screen w-full relative flex flex-col justify-between">
+        <HomeTop />
+        <Homebottom />
+      </div>
+    </>
+  );
+};
+
+export default Home;
