@@ -126,7 +126,7 @@ const FullScreenNav = () => {
 
         {/* links */}
 
-        <div className="lg:py-50 lg:mt-0 mt-60 ">
+        <div className="lg:py-50 lg:mt-0 mt-80 ">
 
           {/* 1 */}
           <div onClick={() => {

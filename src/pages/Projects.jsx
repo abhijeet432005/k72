@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       img1: "assets/project image/PME-MTL_Thumbnail.jpg",
-      img2: "assets/project image/thumbnail_OSM_1280.jpg",
+      img2: "assets/project image/thumbnailimage_opto.jpg",
     },
     // {
     //   img1: "src/assets/project image/thumbnailimage_atable2.jpg",
