@@ -395,12 +395,12 @@ const Agence = () => {
                     {/* Text Section */}
                     <div
                       ref={(el) => (colorRefs.current[idx] = el)}
-                      className="flex justify-between items-start font-[font-2] uppercase relative z-10 transition-all duration-300"
+                      className="flex justify-between items-start font-[font-1] uppercase relative z-10 transition-all duration-300"
                     >
-                      <h1 className="p-3 text-sm sm:text-base md:text-[1vw] text-[#D2FD50] lg:text-white">
+                      <h1 className="p-3 text-[0.6rem] lg:text-[1vw] text-[#D2FD50] lg:text-white">
                         {elem.name}
                       </h1>
-                      <h1 className="p-3 text-xl sm:text-2xl md:text-[2vw] whitespace-nowrap">
+                      <h1 className="p-3 text-xl  lg:text-[2vw] whitespace-nowrap">
                         {elem.work}
                       </h1>
                     </div>
