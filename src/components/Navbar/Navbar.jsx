@@ -13,7 +13,7 @@ const Navbar = () => {
   
 
   return (
-    <div className="w-full flex justify-between items-start fixed z-9 top-0">
+    <div className="w-full flex justify-between items-start fixed z-99 top-0">
       <div onClick={() => navigate('/')} className=" ">
         <div className="lg:w-[10vw] w-[14.4vh] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 44">
