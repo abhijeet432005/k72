@@ -6,12 +6,12 @@ import Homebottom from "../components/Home/Homebottom";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="h-screen">
       <div className="w-screen h-screen fixed">
         <Video />
       </div>
 
-      <div className="h-[91vh] lg:h-screen w-full relative flex flex-col justify-between">
+      <div className="h-full w-full relative flex flex-col justify-between">
         <HomeTop />
         <Homebottom />
       </div>
