@@ -1,17 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MainRoutes from "./router/MainRoutes";
 import Navbar from "./components/Navbar/Navbar";
 import FullScreenNav from "./components/Navbar/FullScreenNav";
 
 
 const App = () => {
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  })
   return (
-    
-    <div className="">
-      <Navbar />
-      <FullScreenNav />
-      <MainRoutes />
+    <div className="min-h-screen">
+        <Navbar />
+        <FullScreenNav />
+        <MainRoutes />
     </div>
   );
 };
