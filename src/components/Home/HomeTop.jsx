@@ -40,7 +40,7 @@ const HomeTop = () => {
 
       <div className="sec text-[5vh] lg:text-[9.5vw] leading-[6vh] lg:leading-[8vw] uppercase flex items-center justify-center gap-3 ">
         qui
-        <div className=" bg-red-200 h-[5vh] lg:h-[7.5vw] w-[13vh] lg:w-[15vw] rounded-full overflow-hidden lg:-mt-5 -mt-3">
+        <div className="h-[5vh] lg:h-[7.5vw] w-[13vh] lg:w-[15vw] rounded-full overflow-hidden lg:-mt-5 -mt-3">
           <Video />
         </div>
         génère
